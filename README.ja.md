@@ -58,6 +58,19 @@ GPU の型番と FPS を教えていただけると大変助かります。
 - 表示言語：繁體中文、简体中文、English、日本語（メインメニュー右下で切り替え）。
   英語・日本語は中国語版からの翻訳です。訂正があればぜひお知らせください。
 
+### 画面
+
+<table>
+<tr>
+<td width="50%" align="center"><img src="docs/screenshots/title.jpg" alt="メインメニュー"><br><b>メインメニュー</b><br><sub>背景は AI 同士がリアルタイムで戦う台江の海戦</sub></td>
+<td width="50%" align="center"><img src="docs/screenshots/campaign.jpg" alt="戦略マップ（ターン制）"><br><b>戦略マップ（ターン制）</b><br><sub>海峡争覇の第 1 ターン：金門・廈門の軍団と艦隊、右は概要パネル</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center"><img src="docs/screenshots/land.jpg" alt="陸戦（リアルタイム）"><br><b>陸戦（リアルタイム）</b><br><sub>北線尾の戦い：藤牌兵が茂みから飛び出し、オランダの銃兵方陣を伏撃</sub></td>
+<td width="50%" align="center"><img src="docs/screenshots/naval.jpg" alt="海戦（リアルタイム）"><br><b>海戦（リアルタイム）</b><br><sub>台江の海戦：鄭軍の趕繒船が横隊でオランダ船を迎え撃つ</sub></td>
+</tr>
+</table>
+
 ## 操作説明
 
 | | 戦略マップ | 陸戦／海戦 |

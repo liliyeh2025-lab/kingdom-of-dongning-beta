@@ -58,6 +58,19 @@ Reports with your GPU model and FPS are very welcome.
 - Interface languages: Traditional Chinese, Simplified Chinese, English, Japanese (switch at the bottom right of the main menu).
   English and Japanese are translations of the Chinese original; corrections are welcome.
 
+### Screenshots
+
+<table>
+<tr>
+<td width="50%" align="center"><img src="docs/screenshots/title.jpg" alt="Main menu"><br><b>Main menu</b><br><sub>The background is a live AI-vs-AI Battle of Taijiang</sub></td>
+<td width="50%" align="center"><img src="docs/screenshots/campaign.jpg" alt="Campaign map (turn-based)"><br><b>Campaign map (turn-based)</b><br><sub>Struggle for the Strait, turn 1: armies and fleets at Xiamen and Kinmen, with the overview panel</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center"><img src="docs/screenshots/land.jpg" alt="Land battle (real time)"><br><b>Land battle (real time)</b><br><sub>Battle of Baxemboy: rattan shields burst out of the scrub to ambush the Dutch musket square</sub></td>
+<td width="50%" align="center"><img src="docs/screenshots/naval.jpg" alt="Naval battle (real time)"><br><b>Naval battle (real time)</b><br><sub>Battle of Taijiang: Zheng war junks in line abreast against the Dutch ships</sub></td>
+</tr>
+</table>
+
 ## Controls
 
 | | Campaign map | Land / naval battle |

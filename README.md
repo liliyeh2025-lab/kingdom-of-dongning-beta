@@ -54,6 +54,19 @@
 - **新手教學**：大約十分鐘，學會鏡頭、選取、擺陣、編組、伏兵、攻擊。
 - 介面語言：繁體中文、简体中文、English、日本語（主畫面右下角切換）。
 
+### 畫面
+
+<table>
+<tr>
+<td width="50%" align="center"><img src="docs/screenshots/title.jpg" alt="主畫面"><br><b>主畫面</b><br><sub>背景是 AI 即時對打的台江海戰</sub></td>
+<td width="50%" align="center"><img src="docs/screenshots/campaign.jpg" alt="戰略地圖（回合制）"><br><b>戰略地圖（回合制）</b><br><sub>海峽爭霸第一回合：金廈的軍團、艦隊與右邊的總覽</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center"><img src="docs/screenshots/land.jpg" alt="陸戰（即時）"><br><b>陸戰（即時）</b><br><sub>北線尾之戰：藤牌兵從灌木裡殺出伏擊荷蘭火槍方陣</sub></td>
+<td width="50%" align="center"><img src="docs/screenshots/naval.jpg" alt="海戰（即時）"><br><b>海戰（即時）</b><br><sub>台江海戰：鄭軍趕繒船橫隊迎擊荷蘭大船</sub></td>
+</tr>
+</table>
+
 ## 操作說明
 
 | | 戰略地圖 | 陸戰／海戰 |
