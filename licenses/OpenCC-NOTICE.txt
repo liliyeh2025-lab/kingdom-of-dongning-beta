@@ -1,0 +1,8 @@
+OpenCC-Python
+Copyright 2016
+
+This product includes dictionary data and configurations developed by
+[OpenCC](https://github.com/BYVoid/OpenCC).
+
+
+Modifications by Kingdom of Dongning: the dictionaries TWPhrasesRev, TWVariantsRevPhrases, TWVariantsRev, TSPhrases, TSCharacters and JPVariants were merged into a single JSON table (Data/i18n/opencc.json) with additional local overrides for game terminology.

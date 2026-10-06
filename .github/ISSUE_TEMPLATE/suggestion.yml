@@ -1,0 +1,44 @@
+name: "建議 / Suggestion / 提案"
+description: "玩法、平衡、介面、翻譯、史實 / Gameplay, balance, interface, translation, history / ゲーム性・バランス・UI・翻訳・史実"
+title: "[建議 Suggestion] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        用中文、English、日本語都可以。 / Chinese, English or Japanese are all fine. / 中国語・英語・日本語のどれでも構いません。
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: "類別 / Category / 種類"
+      options:
+        - "玩法、平衡 / Gameplay, balance / ゲーム性・バランス"
+        - "介面、操作 / Interface, controls / UI・操作"
+        - "翻譯、文字 / Translation, text / 翻訳・文章"
+        - "史實 / Historical accuracy / 史実"
+        - "畫面、音效 / Graphics, sound / グラフィック・サウンド"
+        - "效能 / Performance / パフォーマンス"
+        - "其他 / Other / その他"
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: "內容 / Details / 内容"
+      description: "哪裡不好玩、看不懂或不對，你希望怎麼改 / What felt wrong or unclear, and how you would change it / 何が分かりにくい・おかしいと感じたか、どう変えてほしいか"
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: "史料出處（史實相關時）/ Sources (for history) / 出典（史実の場合）"
+      description: "書名、頁碼、網址 / Book, page, URL / 書名・ページ・URL"
+
+  - type: input
+    id: version
+    attributes:
+      label: "遊戲版本 / Game version / バージョン"
+      placeholder: "v1.0.0 Beta"

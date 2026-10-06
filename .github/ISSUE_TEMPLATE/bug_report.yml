@@ -1,0 +1,78 @@
+name: "Bug 回報 / Bug report / バグ報告"
+description: "遊戲出錯、當掉、畫面怪怪的 / Crashes, errors, visual glitches / 不具合・クラッシュ・表示の異常"
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        謝謝你回報！用中文、English、日本語都可以。看不懂的欄位可以空著。
+        Thanks for reporting! Chinese, English or Japanese are all fine. Leave a field empty if you are not sure.
+        ご報告ありがとうございます。中国語・英語・日本語のどれでも構いません。分からない欄は空欄で大丈夫です。
+
+  - type: input
+    id: version
+    attributes:
+      label: "遊戲版本 / Game version / バージョン"
+      description: "主畫面右下角 / Bottom right of the main menu / メインメニュー右下"
+      placeholder: "v1.0.0 Beta"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: where
+    attributes:
+      label: "在哪裡發生 / Where did it happen / どこで発生しましたか"
+      options:
+        - "主畫面、設定 / Main menu, settings / メインメニュー・設定"
+        - "戰役地圖：東征 / Campaign map: Eastern Expedition / キャンペーン：台湾遠征"
+        - "戰役地圖：海峽爭霸 / Campaign map: Struggle for the Strait / キャンペーン：海峡争覇"
+        - "戰役地圖：天下 / Campaign map: All Under Heaven / キャンペーン：天下"
+        - "陸戰 / Land battle / 陸戦"
+        - "海戰 / Naval battle / 海戦"
+        - "攻城、登陸 / Siege, landing / 攻城戦・上陸戦"
+        - "歷史戰役 / Historical battle / 歴史会戦"
+        - "自訂戰鬥 / Custom battle / カスタムバトル"
+        - "新手教學 / Tutorial / チュートリアル"
+        - "開場動畫 / Opening cinematic / オープニングムービー"
+        - "其他 / Other / その他"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: "發生了什麼 / What happened / 何が起きましたか"
+      description: "你做了什麼、看到什麼、原本以為會怎樣 / What you did, what you saw, what you expected / 何をして、何が起き、どうなると思っていたか"
+      placeholder: |
+        1. 選了鄭軍的海峽爭霸，第 12 回合……
+        2. 右鍵點……
+        3. 結果……（原本以為……）
+    validations:
+      required: true
+
+  - type: dropdown
+    id: repeat
+    attributes:
+      label: "每次都會發生嗎 / Does it happen every time / 毎回起きますか"
+      options:
+        - "每次 / Every time / 毎回"
+        - "有時候 / Sometimes / 時々"
+        - "只發生過一次 / Only once / 一度だけ"
+
+  - type: textarea
+    id: files
+    attributes:
+      label: "截圖、日誌、存檔 / Screenshots, log, save / スクリーンショット・ログ・セーブ"
+      description: |
+        把檔案拖進這裡 / Drag files here / ファイルをここにドラッグしてください
+        - 日誌 / Log / ログ：`%APPDATA%\Godot\app_userdata\Dongning\logs\godot.log`
+        - 存檔 / Save / セーブ：`%APPDATA%\Godot\app_userdata\Dongning\campaign\`（最新的 .json / newest .json / 最新の .json）
+        - 截圖 / Screenshot / スクリーンショット：`Win + Shift + S`
+
+  - type: input
+    id: system
+    attributes:
+      label: "電腦 / Computer / パソコン"
+      description: "Windows 版本、顯示卡 / Windows version, graphics card / Windows のバージョン・GPU"
+      placeholder: "Windows 11, NVIDIA GeForce GTX 1660"
